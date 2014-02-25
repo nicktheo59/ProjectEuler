@@ -1,0 +1,22 @@
+function evenfib() {
+
+	
+	var currentFibNumber = 1;
+	var preceedingFibNumber =1;
+	var total = 0;
+
+while(currentFibNumber<4000000 ){
+	
+	if (currentFibNumber % 2 ==0){
+		total += currentFibNumber;
+}
+	 preceedingFibNumber = currentFibNumber;
+	currentFibNumber += preceedingFibNumber;
+	
+}
+
+	return total;
+
+}
+
+document.getElementById("result").innerHTML = evenfib();

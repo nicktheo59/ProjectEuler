@@ -1,0 +1,13 @@
+<html>
+<head>
+
+<script src="./script.js"></script>
+
+</head>
+<body>
+
+Result <br>
+<div id="result"></div>
+
+</body>
+</html>
