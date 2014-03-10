@@ -1,0 +1,23 @@
+function squares(){
+
+var T=0;
+var n=1;
+
+while (n<=100){
+ T+= n*n;
+ n++;
+}
+
+var S = (5050*5050)
+//used Eulers trick of writing:
+// 1+ ...+ 100
+//    +
+// 100+ ..+1
+// == (101*100)*2
+    
+    
+ return (S - T);   
+//return n;    
+}
+
+document.getElementById("result").innerHTML = squares()
